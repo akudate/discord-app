@@ -1,12 +1,3 @@
-# Fullstack Discord Clone: Next.js 13, React, Socket.io, Prisma, Tailwind, MySQL | Full Course 2023
-
-![Copy of Copy of Copy of Fullstack Twitter Clone (5)](https://github.com/AntonioErdeljac/next13-discord-clone/assets/23248726/14e25e4f-eb83-44dd-8b97-4f2666b89386)
-
-
-This is a repository for Fullstack Discord Clone: Next.js 13, React, Socket.io, Prisma, Tailwind, MySQL | Full Course 2023
-
-[VIDEO TUTORIAL](https://www.youtube.com/watch?v=ZbX4Ok9YX94)
-
 Features:
 
 - Real-time messaging using Socket.io
@@ -24,7 +15,7 @@ Features:
 - Light / Dark mode
 - Websocket fallback: Polling with alerts
 - ORM using Prisma
-- MySQL database using Planetscale
+- MongoDB database
 - Authentication with Clerk
 
 ### Prerequisites
@@ -34,7 +25,7 @@ Features:
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/AntonioErdeljac/next13-discord-clone.git
+git clone https://github.com/notquirrel/discord-app.git
 ```
 
 ### Install packages
@@ -67,7 +58,7 @@ NEXT_PUBLIC_LIVEKIT_URL=
 
 ### Setup Prisma
 
-Add MySQL Database (I used PlanetScale)
+Add MongoDB Database
 
 ```shell
 npx prisma generate
